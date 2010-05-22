@@ -22,4 +22,4 @@
                  (db-to-uri db) (:username db) (:password db))
         pool-factory (PoolableConnectionFactory. factory pool nil nil false true)
         ds (PoolingDataSource. pool)]
-    ds))
+    {:datasource ds}))

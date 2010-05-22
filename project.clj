@@ -1,4 +1,4 @@
-(defproject postgres-pool "1.0.0"
+(defproject postgres-pool "1.1.0"
   :description "A pool of postgres connections"
   :dependencies [[org.clojure/clojure "1.2.0-master-SNAPSHOT"]
                  [org.clojure/clojure-contrib "1.2.0-SNAPSHOT"]
